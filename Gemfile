@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.6'
 end
 
 group :development do
