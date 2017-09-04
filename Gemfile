@@ -12,6 +12,8 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'turbolinks', '~> 5'
+gem 'pundit'
+
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.6'
@@ -35,5 +37,5 @@ group :development do
   gem 'terminal-notifier-guard' # Testing related
   gem 'terminal-notifier' # Testing related
   gem 'pry-rails'
-  gem 'pry-doc' 
+  gem 'pry-doc'
 end
