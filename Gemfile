@@ -15,6 +15,8 @@ gem 'turbolinks', '~> 5'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.6'
+  gem 'spring-commands-rspec'
+  gem 'factory_girl_rails'
 end
 
 group :development do
