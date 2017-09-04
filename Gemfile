@@ -34,4 +34,6 @@ group :development do
   gem 'guard-rspec', require: false # Testing related
   gem 'terminal-notifier-guard' # Testing related
   gem 'terminal-notifier' # Testing related
+  gem 'pry-rails'
+  gem 'pry-doc' 
 end
