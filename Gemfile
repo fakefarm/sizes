@@ -18,6 +18,8 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'selenium-webdriver'
+  gem 'capybara', '~> 2.13'
 end
 
 group :test do
