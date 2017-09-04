@@ -17,6 +17,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'spring-commands-rspec'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :development do
