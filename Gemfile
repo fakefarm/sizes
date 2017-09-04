@@ -32,4 +32,6 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'guard' # Testing related
   gem 'guard-rspec', require: false # Testing related
+  gem 'terminal-notifier-guard' # Testing related
+  gem 'terminal-notifier' # Testing related
 end
